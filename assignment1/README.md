@@ -12,3 +12,7 @@ KNN是cs231n assignment1的第一个task，难度上来说比较小吧，主要�
 date: 2017/9/1
 
 这几天疯狂摸鱼，结果就写掉SVM和softmax。这两个东西本质上都是通过矩阵乘法搞得线性的classifier，要用到很多的矩阵操作，非常的玄学，再次感叹python的vertor的优化真是好，明明遍历矩阵也需要一次循环，但是就是能很好地优化复杂度。softmax和svm核心概念一个是loss，一个是grad。loss就是用来评判（惩罚）一个W是不是好的一个函数，然后在对loss求导得到grad，学着CV真的发现自己的VV285的线性代数没有学好，算梯度下降的时候如同弱智。梯度下降的方法参考http://blog.csdn.net/yc461515457/article/details/51924604  还有 https://zhuanlan.zhihu.com/p/21478575 可以说是非常清晰具体了
+
+date:2017/9/2
+
+事实证明，我之所以没在课件上看到怎么算梯度下降，是因为我没有看后面的课件。。。
